@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    background: url(../img/download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(215, 249, 250, 0.404);
+    align-items: center;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #inputString {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  #result {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
